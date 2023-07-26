@@ -4,7 +4,6 @@ body {
 }
 
 .container {
-    width: 100%;
     margin: auto;
     max-width: 1219px;
     padding: 0 55px 0 55px;
@@ -13,6 +12,9 @@ body {
 .header {
     background-color: #007765;
     height: 85px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
 }
 
 .header-content {
@@ -38,4 +40,19 @@ body {
     margin: 0 8px;
     color: white;
     text-decoration: none;
+}
+
+.hero {
+    margin-top: 85px;
+    background-image: url("img/image-7.png");
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 72px;
 }
