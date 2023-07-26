@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: "Roboto", "sans-serif";
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 1219px;
+    padding: 0 55px 0 55px;
+}
+
+.header {
+    background-color: #007765;
+    height: 85px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 20px 45px;
+    height: 45px;
+}
+
+.nav-links {
+    margin: auto 55px;
+    color: white;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a {
+    font-size: 24px;
+    margin: 0 8px;
+    color: white;
+    text-decoration: none;
+}
