@@ -67,8 +67,7 @@ p {
 }
 
 .the-problem {
-    padding: 133px 0 90px 0;
-    margin-top: -85px;
+    padding: 48px 0 90px 0;
 }
 
 .heading {
@@ -101,8 +100,7 @@ p {
 }
 
 .introducing {
-    padding: 133px 0 90px 0;
-    margin-top: -85px;
+    padding: 48px 0 90px 0;
 }
 
 .introducing-content {
@@ -156,4 +154,26 @@ p {
 
 .team-image {
     margin-bottom: 12px;
+}
+
+.footer {
+    height: 175px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-text {
+    text-align: center;
+    color: #ffffff;
+    max-width: 540px;
+    font-size: 18px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -85px;
+    visibility: hidden;
 }
