@@ -15,6 +15,7 @@ p {
     margin: auto;
     max-width: 1219px;
     padding: 0 55px 0 55px;
+    box-sizing: border-box;
 }
 
 .header {
