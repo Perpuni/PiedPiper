@@ -71,7 +71,7 @@ p {
     margin-top: -85px;
 }
 
-.the-problem-header {
+.heading {
     color: #007765;
     font-size: 64px;
     text-align: center;
@@ -97,8 +97,63 @@ p {
     font-size: 48px;
     font-style: oblique;
     text-align: center;
+    max-width: 930px;
 }
 
-.hero .container {
-    padding: 0 165px 0 165px;
+.introducing {
+    padding: 133px 0 90px 0;
+    margin-top: -85px;
+}
+
+.introducing-content {
+    margin-top: 16px;
+}
+
+.introducing-paragraph {
+    font-size: 32px;
+}
+
+.introducing-image {
+    margin: 0 48px 35px 0;
+}
+
+.introducing-first-paragraph {
+    min-height: 115px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-team {
+    background-color: #eeeeee;
+    padding: 48px 0 95px 0;
+}
+
+.team-member-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-member-card {
+  /*  background-color: #ffffff; */
+    width: 350px;
+    max-height: 285px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 24px 0
+}
+
+.team-name {
+    font-size: 24px;
+    color: #007765;
+    font-weight: 700;
+}
+
+.team-profession {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.team-image {
+    margin-bottom: 12px;
 }
